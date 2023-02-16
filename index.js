@@ -1,8 +1,10 @@
 
+//---- required pulls
 const inquirer = require('inquirer');
 const fs = require('fs');
 const geneRead = require('./utils/generateMarkdown');
 
+//--- readMe prompts
 const questions = [
       {
         type: "input",
@@ -52,9 +54,10 @@ const questions = [
       },
     ]; 
     
-
+//---- prompt queue
 inquirer.prompt(questions).then((data) => writeToFile(data));
 
+//--function to write readME
 function writeToFile(data) {
   console.log(data);
   fs.writeFile("./utils/README.MD", genRead(data), (err) =>
