@@ -14,27 +14,27 @@ const questions = [
       {
         type: "input",
         name: "description",
-        message: "Enter project description",
+        message: "Enter project description:",
       },
       {
         type: "input",
         name: "installation",
-        message: "Enter instructions for installation",
+        message: "Enter instructions for installation:",
       },
       {
         type: "input",
         name: "usage",
-        message: "Enter usage information",
+        message: "Enter usage information:",
       },
       {
         type: "input",
         name: "credits",
-        message: "Enter citations for credit",
+        message: "Enter citations for credit:",
       },
       {
         type: "input",
         name: "tests",
-        message: "Enter test instructions",
+        message: "Enter test instructions:",
       },
       {
         type: "checkbox",
@@ -45,12 +45,12 @@ const questions = [
       {
         type: "input",
         name: "userName",
-        message: "Enter your GitHub username",
+        message: "Enter your GitHub username:",
       },
       {
         type: "input",
         name: "email",
-        message: "Enter your email address",
+        message: "Enter your email address:",
       },
     ]; 
     
